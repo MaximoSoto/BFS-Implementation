@@ -1,5 +1,5 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$schema": "https://github.com/MaximoSoto/BFS-Implementation/blob/main/Building_Schema.json",
     "$id": "https://github.com/MaximoSoto/BFS-Implementation/blob/main/Building_Schema.json",
     "title": "Building Schema",
     "description": "The schema for building graph data.",
