@@ -68,13 +68,8 @@
                                             "nodeID": {
                                                 "description": "ID of the node that this node connects to.",
                                                 "type": "string"
-                                            },
-
-                                            "bidirectional": {
-                                                "description": "Can the edge be traversed both ways?",
-                                                "type": "boolean",
-                                                "default": true
                                             }
+
                                         },
                                         "additionalProperties": false
                                     }
