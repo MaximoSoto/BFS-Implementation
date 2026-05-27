@@ -1,2 +1,2 @@
-# BFS_Implementation
+# BFS-Implementation
 Implementing BFS for research project
