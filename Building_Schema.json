@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/MaximoSoto/BFS-Implementation/blob/main/Building_Schema.json",
+    "$id": "https://raw.githubusercontent.com/MaximoSoto/BFS-Implementation/refs/heads/main/Building_Schema.json",
     "title": "Building Schema",
     "description": "The schema for building graph data.",
     "type": "object",
@@ -33,6 +33,7 @@
                     "nodes": {
                         "description": "Points on the floor",
                         "type": "array",
+                        "minItems": 1,
                         "items": {
                             "type": "object",
                             "required": ["id", "isExit", "x", "y", "edges"],
@@ -69,7 +70,7 @@
                                                 "type": "string"
                                             },
 
-                                            "biDirectional": {
+                                            "bidirectional": {
                                                 "description": "Can the edge be traversed both ways?",
                                                 "type": "boolean",
                                                 "default": true
