@@ -1,3 +1,4 @@
 {
-    "building": "Building 9"
+    "$schema": "./Building_Schema.json",
+    "building_name"
 }

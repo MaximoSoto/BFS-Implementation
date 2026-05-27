@@ -7,6 +7,11 @@
 
     "required": ["building_name", "floors"],
     "properties": {
+        "$schema": {
+            "type": "string",
+            "description": "Allows the schema to be used by a JSON file."
+        },
+
         "building_name": {
             "description": "Name of building",
             "type": "string"
